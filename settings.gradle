@@ -1,0 +1,12 @@
+rootProject.name = 'spring-boot-rsocket-api-client-annotation-processor'
+
+// INTERNAL
+include 'annotation-processor'
+include 'example'
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
